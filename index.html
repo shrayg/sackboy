@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>$beybladez</title>
+    <meta name="description" content="Our childhood $beybladez. Let it rip." />
+    <meta name="author" content="project" />
+
+    <meta property="og:title" content="$beybladez" />
+    <meta property="og:description" content="Our childhood $beybladez. Let it rip." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://beybladezz.com/beybladezcard.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@sshroomstars" />
+    <meta name="twitter:image" content="https://beybladezz.com/beybladezcard.png" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
+    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
+    <script type="module" src="/src/main.tsx"></script>
+    <script type="module">
+    import { injectSpeedInsights } from '@vercel/speed-insights';
+
+    // By default, this sends 100% of events. You can pass { sampleRate: 0.5 } to send 50%, etc.
+    injectSpeedInsights({
+      // sampleRate: 1,    // send all events (default)
+      // debug: true,      // log events to console (optional, only for dev)
+      // beforeSend: (evt) => { /* filter or modify evt */ return evt; }
+    });
+  </script>
+
+  </body>
+</html>

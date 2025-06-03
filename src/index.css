@@ -1,0 +1,164 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 0%;
+    --foreground: 0 0% 94%;
+
+    --card: 0 0% 6%;
+    --card-foreground: 0 0% 94%;
+
+    --popover: 0 0% 6%;
+    --popover-foreground: 0 0% 94%;
+
+    --primary: 0 0% 78%;
+    --primary-foreground: 0 0% 6%;
+
+    --secondary: 0 0% 12%;
+    --secondary-foreground: 0 0% 78%;
+
+    --muted: 0 0% 12%;
+    --muted-foreground: 0 0% 58%;
+
+    --accent: 0 0% 12%;
+    --accent-foreground: 0 0% 78%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 0 0% 58%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 3%;
+    --sidebar-foreground: 0 0% 78%;
+    --sidebar-primary: 0 0% 78%;
+    --sidebar-primary-foreground: 0 0% 6%;
+    --sidebar-accent: 0 0% 12%;
+    --sidebar-accent-foreground: 0 0% 78%;
+    --sidebar-border: 0 0% 12%;
+    --sidebar-ring: 0 0% 58%;
+  }
+
+  .dark {
+    --background: 0 0% 0%;
+    --foreground: 0 0% 94%;
+
+    --card: 0 0% 6%;
+    --card-foreground: 0 0% 94%;
+
+    --popover: 0 0% 6%;
+    --popover-foreground: 0 0% 94%;
+
+    --primary: 0 0% 78%;
+    --primary-foreground: 0 0% 6%;
+
+    --secondary: 0 0% 12%;
+    --secondary-foreground: 0 0% 78%;
+
+    --muted: 0 0% 12%;
+    --muted-foreground: 0 0% 58%;
+
+    --accent: 0 0% 12%;
+    --accent-foreground: 0 0% 78%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 0 0% 58%;
+    --sidebar-background: 0 0% 3%;
+    --sidebar-foreground: 0 0% 78%;
+    --sidebar-primary: 0 0% 78%;
+    --sidebar-primary-foreground: 0 0% 6%;
+    --sidebar-accent: 0 0% 12%;
+    --sidebar-accent-foreground: 0 0% 78%;
+    --sidebar-border: 0 0% 12%;
+    --sidebar-ring: 0 0% 58%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-black text-white;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.generating-content {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes float1 {
+  0%, 100% { transform: translate(0, 0); }
+  25% { transform: translate(20px, -15px); }
+  50% { transform: translate(-10px, 20px); }
+  75% { transform: translate(-20px, -10px); }
+}
+
+@keyframes float2 {
+  0%, 100% { transform: translate(0, 0); }
+  25% { transform: translate(-15px, 25px); }
+  50% { transform: translate(25px, -15px); }
+  75% { transform: translate(-20px, 10px); }
+}
+
+@keyframes float3 {
+  0%, 100% { transform: translate(0, 0); }
+  25% { transform: translate(15px, -20px); }
+  50% { transform: translate(-25px, 15px); }
+  75% { transform: translate(10px, 20px); }
+}
+
+@keyframes float4 {
+  0%, 100% { transform: translate(0, 0); }
+  25% { transform: translate(-25px, -15px); }
+  50% { transform: translate(15px, 25px); }
+  75% { transform: translate(20px, -10px); }
+}
+
+@keyframes float5 {
+  0%, 100% { transform: translate(0, 0); }
+  25% { transform: translate(20px, 15px); }
+  50% { transform: translate(-15px, -25px); }
+  75% { transform: translate(-10px, 20px); }
+}
+
+#ellipse0 {
+  animation: float1 3s ease-in-out infinite;
+}
+
+#ellipse1 {
+  animation: float2 4s ease-in-out infinite;
+}
+
+#ellipse2 {
+  animation: float3 3.5s ease-in-out infinite;
+}
+
+#ellipse3 {
+  animation: float4 2.5s ease-in-out infinite;
+}
+
+#ellipse4 {
+  animation: float5 3.2s ease-in-out infinite;
+}
+
+

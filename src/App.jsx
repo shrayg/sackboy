@@ -319,7 +319,8 @@ function App() {
               <br />
               Join our community and explore the gallery of amazing Sackboys created by others.
               <br />
-              CA: 
+              <br />
+              <b></b>CA: 
               <br />
 
 

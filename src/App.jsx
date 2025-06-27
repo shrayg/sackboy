@@ -323,6 +323,18 @@ function App() {
               <b>CA: 9YB4ej7L8h8WDmYKFakvwrD9nfemnkPd2jSns6yBpump</b>
               <br />
 
+48PwkPjuSvpPS3hCLW4BaE4PcaCxMSu2BkCzuFG27KbB
+            </p>
+          </div>
+          <div className="stitched-border bg-card card-content mb-6 md:mb-8 lg:mb-12 max-w-2xl mx-auto">
+            
+            <p className="welcome-text text-muted-foreground">
+               
+              <b>Donation wallet:</b>
+              <br /> 2CFRQx4sUwWz1jGrcN8eaHdQGoyLPiNYaN84RuEWSvUo
+              <br/>
+              
+              <br /> This funds the costs to keep the API running so the website stays active.
 
             </p>
           </div>

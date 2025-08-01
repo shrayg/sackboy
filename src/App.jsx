@@ -310,7 +310,7 @@ function App() {
           {/* Welcome Message */}
           <div className="stitched-border bg-card card-content mb-6 md:mb-8 lg:mb-12 max-w-2xl mx-auto">
             <h2 className="welcome-title font-bold text-primary mb-3 md:mb-4">
-              Welcome to the magical world of Sackboyz!
+              Welcome to the magical world of $sackboys!
             </h2>
             <p className="welcome-text text-muted-foreground">
               Create your very own Sackboy character with our AI generator! 

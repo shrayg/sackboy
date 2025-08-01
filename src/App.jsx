@@ -352,7 +352,7 @@ function App() {
     className="border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white action-button rounded-full"
   >
     <a
-      href="https://x.com/i/communities/1938308679163396370"
+      href="https://x.com/i/communities/1951136228037816361"
       target="_blank"
       rel="noopener noreferrer"
     >

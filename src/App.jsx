@@ -320,7 +320,7 @@ function App() {
               Join our community and explore the gallery of amazing Sackboys created by others.
               <br />
               <br />
-              <b>CA: 9YB4ej7L8h8WDmYKFakvwrD9nfemnkPd2jSns6yBpump</b>
+              <b>CA: Soon:</b>
               <br />
 
 

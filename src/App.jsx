@@ -326,18 +326,6 @@ function App() {
 
             </p>
           </div>
-          <div className="stitched-border bg-card card-content mb-6 md:mb-8 lg:mb-12 max-w-2xl mx-auto">
-            
-            <p className="welcome-text text-muted-foreground">
-               
-              <b>Donation wallet:</b>
-              <br /> 2CFRQx4sUwWz1jGrcN8eaHdQGoyLPiNYaN84RuEWSvUo
-              <br/>
-              
-              <br /> This funds the costs to keep the API running so the website stays active.
-
-            </p>
-          </div>
 
           {/* Call to Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center">
